@@ -1,0 +1,118 @@
+#test{
+    float:left;
+}
+#show{
+    width: 250px;
+    height: 400px;
+    float: left;
+}
+#titleShow{
+    width: 250px;
+    height: 60px;
+    float: top;
+}
+#weatherShow{
+    width: 250px;
+    height: 338px;
+    float: top;
+}
+#text{
+    width: 450px;
+    height: auto;
+    float: left;
+}
+#table{
+    width: 200px;
+    height: 462px;
+    float:left;
+    font-weight:bold;
+}
+p{
+    text-align: justify;
+    line-height:1.5;
+    font-size: 11pt;
+    text-indent:15px;
+    margin: 5%;
+    background-color: #f4f4f4;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Lucida,sans-serif;
+}
+img{
+    margin: 1%; 
+    margin-top: 0%; 
+    float: left;
+    width: 120px; 
+    height: 160px;
+}
+#titleH3{
+    margin: 5%; 
+    margin-top: 8.5%;
+    text-align: center; 
+    color: white;
+    background-color:#6e9022;
+    font-size: 11pt;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Lucida,sans-serif;
+}
+h3{
+    line-height:1.5;
+    font-size: 11pt;
+    text-indent:15px;
+    margin: 5%;
+    margin-top: 4.6%;
+    background-color: #6e9022;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Lucida,sans-serif;
+    color: white;
+}
+#index{
+     margin: 8%;
+     margin-top: 10%;
+     background-color:#f4f4f4;
+     font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Lucida;
+     font-size: 10pt;
+}
+table a{
+    font-size: 9pt;
+    color: #6e9022;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Lucida,sans-serif;
+}
+
+#chart_div > div > div:nth-child(1) > div > svg > g:nth-child(4) > g > path{
+    stroke: #6e9022;
+    stroke-width: 2;
+    fill-opacity: 1;
+    fill: none;
+    visibility: hidden;
+}
+#chart_div > div > div:nth-child(1) > div > svg > g:nth-child(4) > g > rect:nth-child(3){
+    x: 754;
+    y: 103;
+    width: 28;
+    height: 7;
+    stroke: none;
+    stroke-width: 0;
+    fill-opacity: 0.3;
+    fill: #6e9022;
+    visibility: hidden;
+}
+
+#tableUtl{
+    margin: 12%;
+    margin-top:8.5%;
+    background-color:#f4f4f4; 
+}
+font{
+    color:#6e9022;
+}
+input{
+    text-align: center;
+    color: #6e9022;
+}
+
+#getGraf{
+    font-size: 10pt;
+    border-radius: 4px; 
+    background-color: #e0e2e3;
+    font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Lucida;
+}
+input[type=submit]{
+    font-size: 12pt;
+}
